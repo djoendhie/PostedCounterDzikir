@@ -16,15 +16,17 @@ class AllahuAkbarViewController: UIViewController {
         
          labelNumberB.text = Int(sender.value).description
         
+        labelStepperB.wraps = true
+        labelStepperB.autorepeat = true
+        labelStepperB.maximumValue = 33
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         //mengatur stepper wraps nya true
-        labelStepperB.wraps = true
-        labelStepperB.autorepeat = true
-        labelStepperB.maximumValue = 33
+     
         
     }
 

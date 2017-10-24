@@ -16,15 +16,16 @@ class SubhanallahViewController: UIViewController {
     @IBAction func btnStepper(_ sender: UIStepper) {
 
         labelNumber.text = Int(sender.value).description
-
+        
+        labelStepper.wraps = true
+        labelStepper.autorepeat = true
+        labelStepper.maximumValue = 33
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        labelStepper.wraps = true
-        labelStepper.autorepeat = true
-        labelStepper.maximumValue = 33
+        
     }
 
     override func didReceiveMemoryWarning() {

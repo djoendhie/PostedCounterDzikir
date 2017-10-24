@@ -15,15 +15,16 @@ class AlhamdulillahViewController: UIViewController {
     @IBAction func stepperValueChangedA(_ sender: UIStepper) {
         
          labelNumberA.text = Int(sender.value).description
+        labelStepperA.wraps = true
+        labelStepperA.autorepeat = true
+        labelStepperA.maximumValue = 33
     }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         //mengatur stepper wraps nya true
-        labelStepperA.wraps = true
-        labelStepperA.autorepeat = true
-        labelStepperA.maximumValue = 33
+
     }
 
     override func didReceiveMemoryWarning() {
