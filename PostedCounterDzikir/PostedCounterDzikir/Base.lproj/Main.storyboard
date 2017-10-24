@@ -126,8 +126,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="actStepper:" destination="B76-x1-wy3" eventType="valueChanged" id="jEd-hF-E2n"/>
-                                    <action selector="stepperValueChanged:" destination="B76-x1-wy3" eventType="valueChanged" id="Icn-qu-jBH"/>
+                                    <action selector="btnStepper:" destination="B76-x1-wy3" eventType="valueChanged" id="9q4-ct-xDq"/>
                                 </connections>
                             </stepper>
                         </subviews>
@@ -135,7 +134,7 @@
                         <viewLayoutGuide key="safeArea" id="3QB-Y0-xNm"/>
                     </view>
                     <connections>
-                        <outlet property="Number" destination="zFF-a2-FRj" id="jrv-mT-ZBJ"/>
+                        <outlet property="btnStepper" destination="Eyp-WB-TzJ" id="Czi-i6-wCl"/>
                         <outlet property="labelNumber" destination="zFF-a2-FRj" id="dYv-PS-068"/>
                         <outlet property="labelStepper" destination="Eyp-WB-TzJ" id="jUS-lb-tpN"/>
                     </connections>
@@ -315,6 +314,6 @@
         <image name="dikir" width="480" height="480"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cHT-Sw-b8F"/>
+        <segue reference="mBr-dX-Yb6"/>
     </inferredMetricsTieBreakers>
 </document>
